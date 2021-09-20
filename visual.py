@@ -168,7 +168,7 @@ if __name__ == '__main__':
         a.clean_up(c)
 
         os.remove('iostat.png')
-        again = input('再分析一次？y/n')
+        again = input('重新分析一次？y/n')
         if again == 'y':
             continue
         break
