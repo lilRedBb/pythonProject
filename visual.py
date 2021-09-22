@@ -8,7 +8,6 @@ from csv_parser import Parse_txt
 class Visualize(object):
     
     def __init__(self):
-        print('abc')
         self.iostat_list = [x for x in os.listdir() if x.endswith('csv')]
         li_io = []
         for io_file in self.iostat_list:
